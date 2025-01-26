@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(1,2)); //3console.log(foo(1,"2")); //12console.log(foo(1,true)); //3console.log(foo(1,null)); //1console.log(foo(1,undefined)); //NaNconsole.log(foo(1,[1,2])); //11,2
